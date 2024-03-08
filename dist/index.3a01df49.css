@@ -1,0 +1,535 @@
+@font-face {
+  font-family: Inter;
+  src: url("Inter-VariableFont_slnt,wght.6229efbf.ttf");
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Inter;
+  overflow-x: hidden;
+}
+
+header {
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+}
+
+.nav-icon {
+  justify-content: end;
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+
+.subscribe {
+  text-align: center;
+}
+
+.subscribe-header {
+  font-size: 36px;
+}
+
+.subscribe-paragraph {
+  color: #585757;
+  letter-spacing: -.3px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.email-area {
+  border-color: #a8a29e;
+  border-radius: 10px;
+  width: 290px;
+  height: 48px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.email-area::placeholder {
+  font-size: 20px;
+}
+
+.subscribe-btn {
+  color: #fff;
+  background-color: #24b0b5;
+  border-style: none;
+  border-radius: 10px;
+  justify-content: center;
+  width: 120px;
+  height: 48px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.subscribe-info {
+  color: #969696;
+  letter-spacing: -.3px;
+  margin-bottom: 40px;
+  font-size: 13px;
+}
+
+.paragraph p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.heading-list {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.star-icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.heading-element {
+  list-style: none;
+}
+
+.heading-element li {
+  margin-bottom: 20px;
+}
+
+.heading-title {
+  letter-spacing: -.2px;
+  color: #1c1c1c;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.heading-paragraph {
+  text-align: left;
+  letter-spacing: -.2px;
+  color: #585757;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.learn-more {
+  color: #24afb5;
+  letter-spacing: -.1px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.statistics {
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.statistic-number {
+  color: #1c1c1c;
+  margin-bottom: 10px;
+  font-size: 64px;
+  font-weight: 650;
+}
+
+.statistic-text {
+  letter-spacing: -.3px;
+  color: #585757;
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+}
+
+.steps {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.steps-heading {
+  letter-spacing: -.8px;
+  color: #1c1c1c;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.steps-introduction {
+  letter-spacing: -.3px;
+  color: #585757;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.steps-list {
+  list-style: none;
+}
+
+.small-star {
+  width: 96px;
+  height: 96px;
+  margin-top: 20px;
+}
+
+.arrow {
+  width: 48px;
+  height: 48px;
+}
+
+.steps-list h3 {
+  letter-spacing: -.4px;
+  color: #1c1c1c;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.steps-list p {
+  letter-spacing: -.2px;
+  color: #585757;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.astronomy {
+  align-items: center;
+  display: flex;
+}
+
+.astronomy-heading {
+  letter-spacing: -.8px;
+  color: #1c1c1c;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.astronomy-paragraph {
+  letter-spacing: -.3px;
+  text-align: left;
+  color: #585757;
+  max-width: 540px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.astronomy .learn-more {
+  letter-spacing: -.2px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.astronomy .phone {
+  width: 400px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.astronomy-description {
+  margin-left: 40px;
+}
+
+.articles {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.articles ul {
+  list-style: none;
+}
+
+.article-img {
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-date {
+  letter-spacing: 1px;
+  color: #969696;
+  font-size: 11px;
+  display: block;
+}
+
+.article-title {
+  letter-spacing: -.4px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.article-description {
+  letter-spacing: -.2px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.article-feedback {
+  color: #585757;
+  letter-spacing: -.2px;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+}
+
+footer {
+  color: #969696;
+  letter-spacing: -.1px;
+  background-color: #f7f7f7;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  min-width: 100vw;
+  min-height: 60px;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  position: relative;
+}
+
+footer ul {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+hr {
+  background-color: #969696;
+  border: none;
+  height: 1px;
+}
+
+.article-5 {
+  text-align: center;
+}
+
+.article-6 {
+  padding-left: auto;
+}
+
+.list {
+  letter-spacing: -.2px;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.list li {
+  color: #585757;
+  gap: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.logo-section-2 {
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  width: 136px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.media {
+  letter-spacing: -.1px;
+  color: #585757;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  list-style: none;
+  display: flex;
+}
+
+@media screen and (width <= 768px) {
+  header nav span, .steps-heading2, .steps-introduction2, .arrow-right, .computer {
+    visibility: hidden;
+    display: none;
+  }
+
+  .astronomy {
+    flex-direction: column;
+  }
+}
+
+@media screen and (width >= 768px) {
+  nav .nav-icon, .mobile {
+    visibility: hidden;
+    display: none;
+  }
+
+  nav .nav-links {
+    letter-spacing: -.1px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50vw;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+  }
+
+  .subscribe-paragraph {
+    max-width: 730px;
+    max-height: 60px;
+  }
+
+  .paragraph p {
+    max-width: 730px;
+    max-height: 230px;
+  }
+
+  .heading-element {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .statistics {
+    flex-flow: wrap;
+    gap: 30px 100px;
+    margin: 50px auto 50px 80px;
+    display: flex;
+  }
+
+  .steps-heading, .steps-introduction, .arrow {
+    visibility: hidden;
+    display: none;
+  }
+
+  .steps-heading2 {
+    letter-spacing: -.8px;
+    color: #1c1c1c;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .steps-introduction2 {
+    letter-spacing: -.3px;
+    color: #585757;
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .arrow-right {
+    width: 31px;
+    height: 30px;
+  }
+
+  .steps-list {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  }
+
+  .astronomy {
+    gap: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+  }
+
+  .articles {
+    margin-left: auto;
+    margin-right: 80px;
+  }
+
+  .articles ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+  }
+
+  .article-title {
+    width: 16rem;
+  }
+
+  .article-description {
+    width: 13.75rem;
+  }
+
+  .article-6 {
+    padding: 100px;
+  }
+
+  .link {
+    column-count: 3;
+    flex-flow: wrap;
+    gap: 50px;
+    display: flex;
+  }
+
+  .main-link {
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .logo-section-2 {
+    justify-content: start;
+    align-items: center;
+    display: flex;
+  }
+
+  .footer-elements {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+  }
+}
+
+footer {
+  background-color: #f7f7f7;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+.footer-paragraf {
+  float: left;
+}
+
+.computer {
+  letter-spacing: -1.2px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.paragraph-article-5 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

@@ -1,0 +1,558 @@
+@font-face {
+  font-family: Inter;
+  src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+  body {
+   
+    margin-top: 20px;
+    min-height: 100vh;
+    font-family: Inter;
+    overflow-x: hidden;
+    
+    margin: 0;
+    
+  }
+  header {
+    font-weight: 700;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .logo {
+    width: 36px;
+    height: 36px;
+  }
+ 
+
+  .nav-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: end;
+  }
+
+
+
+   .subscribe {
+    text-align: center;
+    
+
+  }
+  .subscribe-header {
+    font-size: 36px;
+  }
+  .subscribe-paragraph {
+    color: #585757;
+    letter-spacing: -0.3px;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+  .email-area {
+    width: 290px;
+    height: 48px;
+    border-radius: 10px;
+    /* border-style: none; */
+    border-color: rgb(168 162 158);
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  .email-area::placeholder {
+    font-size: 20px;
+  }
+  .subscribe-btn {
+    width: 120px;
+    height: 48px;
+    background-color: #24b0b5;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .subscribe-info {
+    margin-bottom: 40px;
+    color: #969696;
+    font-size: 13px;
+    letter-spacing: -0.3px;
+  }
+ 
+  .paragraph p {
+    /* height: 256px;
+    width: 290px; */
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.heading-list {
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+}
+  .star-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .heading-element {
+    list-style: none;
+    
+  }
+  .heading-element li {
+    margin-bottom: 20px;
+  }
+
+  .heading-title {
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    font-weight: 600;
+    color: #1c1c1c;
+  }
+  .heading-paragraph {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    color: #585757;
+  }
+  .learn-more {
+    font-size: 15px;
+    color: #24afb5;
+    letter-spacing: -0.1px;
+    font-weight: 500;
+   
+  }
+  .statistics {
+    margin-left: 40px;
+    margin-right:auto;
+   
+  }
+
+  .statistic-number {
+    font-size: 64px;
+    font-weight: 650;
+    color: #1c1c1c;
+    margin-bottom: 10px;
+  }
+  .statistic-text {
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    color: #585757;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .steps {
+    display: block;
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 40px;
+  }
+  .steps-heading {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    color: #1c1c1c;
+  }
+
+  .steps-introduction {
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    font-weight: 200;
+    color: #585757;
+    margin-bottom: 40px;
+  }
+  .steps-list {
+    list-style: none;
+  }
+  .small-star {
+    height: 96px;
+    width: 96px;
+    margin-top: 20px;
+  }
+  .arrow {
+    height: 48px;
+    width: 48px;
+  }
+  .steps-list h3 {
+    font-size: 24px;
+    letter-spacing: -0.4px;
+    font-weight: 600;
+    color: #1c1c1c;
+  }
+  .steps-list p {
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    font-weight: 300;
+    color: #585757;
+  }
+  .astronomy {
+    display: flex;
+    align-items: center;
+    
+
+  }
+  .astronomy-heading {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    color: #1c1c1c;
+  }
+  .astronomy-paragraph {
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: left;
+    color: #585757;
+    max-width: 540px;
+  }
+  
+  .astronomy .learn-more {
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    line-height: 20px;
+    
+  }
+  .astronomy .phone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+   width: 400px;
+   
+   
+   
+  }
+  .astronomy-description {
+    margin-left: 40px;
+  }
+
+
+   .articles {
+    margin-top: 40px;
+    margin-left: 40px; 
+   
+  
+  } 
+  .articles ul {
+    list-style: none;
+  }
+  /* POPRAWIC */
+  .article-img {
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article-date {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #969696;
+    display: block;
+  }
+  .article-title {
+    font-size: 24px;
+    letter-spacing: -0.4px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .article-description {
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    font-weight: 300;
+  }
+  .article-feedback {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #585757;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+  }
+
+  footer {
+   
+    position:relative;
+    min-width: 100vw;
+    background-color:#F7F7F7;
+    color: #969696;
+    font-size: 13px;
+    letter-spacing: -0.1px;
+    line-height: 18px;
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    
+  }
+
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    padding-left: 0;
+    
+  }
+  /* footer .copyright {
+    margin-left: auto;
+  } */
+  hr {
+    
+    border: none;
+    height: 1px;
+    background-color: #969696;
+    
+}
+
+.article-5 {
+  text-align: center;
+}
+
+.article-6 {
+  padding-left: auto;
+
+}
+
+.list {
+  list-style: none;
+  letter-spacing: -0.2px;
+  padding-left: 20px;
+  
+}
+.list li {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  color: #585757;
+  
+}
+
+.logo-section-2 {
+  padding-left: 20px;
+    width: 136px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.media {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  letter-spacing: -0.1px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #585757;
+}
+
+
+
+@media screen and (max-width:768px){
+  header nav span, 
+  .steps-heading2, 
+  .steps-introduction2,
+  .arrow-right,
+  .computer{
+    visibility: hidden;
+    display: none;
+
+   
+  }
+  .astronomy {
+    flex-direction: column;
+  }
+  
+}
+
+
+@media screen and (min-width: 768px){
+
+nav .nav-icon, .mobile {
+  visibility: hidden;
+    display: none;
+}
+nav .nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+   width: 50vw;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+}
+
+.subscribe-paragraph {
+  max-width: 730px;
+  max-height: 60px;
+
+}
+.paragraph p {
+  max-width: 730px;
+  max-height: 230px;
+}
+.heading-element {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  gap:20px;
+}
+.statistics {
+margin: 50px auto 50px 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px 100px;
+}
+
+ .steps-heading, 
+.steps-introduction,
+.arrow {
+  visibility: hidden;
+  display: none;
+}
+
+
+.steps-heading2 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  color: #1c1c1c;
+}
+
+.steps-introduction2 {
+  max-width: 730px;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+  font-weight: 200;
+  color: #585757;
+  
+margin-left:auto;
+margin-right: auto;
+}
+.arrow-right {
+  width: 31px;
+  height: 30px;
+}
+.steps-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.astronomy {
+  display: flex;
+  margin-left:  80px;
+  margin-right: 80px;
+ 
+ gap: 40px;
+}
+.articles {
+  margin-right: 80px;
+  margin-left: auto;
+
+}
+.articles ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.article-title {
+  width: 16rem;
+}
+
+.article-description {
+  width: 13.75rem;
+}
+
+
+.article-6 {
+  padding: 100px;
+
+}
+
+.link  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-count: 3;
+  gap: 50px;
+  
+  
+}
+
+.main-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-section-2 {
+  display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-elements {
+
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: space-evenly;
+ align-items: center;
+ 
+}
+
+}
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+.footer-paragraf {
+  float: left;
+}
+
+.computer {
+  font-size: 48px;
+  letter-spacing: -1.2px;
+  line-height: 60px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.paragraph-article-5 {
+  margin-left: auto;
+  margin-right: auto;
+}
